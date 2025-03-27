@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    background-color: beige;
+}
+h1{
+    font-size: 40px;
+    font-family: boldonse;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.b1{
+    margin: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    color: black;
+    background-color: white;
+    padding: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    font-size: 24px ;
+    font-family: quicksand  ;
+    font-weight: 600;
+    border-radius: 20px ;
+}
+.b1:hover{
+    background-color: black;
+    color: beige;
+}
+a{
+    text-decoration: none;
+}
+
+@keyframes linha{
+    0%{
+        transform: scale(1, 1);
+    }
+    50%{
+        transform: scale(200, 1);
+    }
+    100%{
+        transform: translateX(100vw);
+        
+    }
+}
+.linha{
+    width: 1vw;
+    margin-top: 0px;
+    background-color:darkred;
+    animation-name: linha;
+    animation-duration: 5s;
+    height: 10px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.linha2{
+    width: 100vw;
+    margin-top: 0px;
+    background-color: black;
+    height: 5px;
+}
+img{
+    display: block;
+    width: 100vw;
+    height: 50vw;
+}
