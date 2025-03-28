@@ -131,7 +131,7 @@ p{
     width: 1000px;
 
 }
-@media only screen and (max-aspect-ratio: 1){
+@media (max-aspect-ratio: 1){
     .dropbtn{
         padding: 16px, 50vw;
     }
