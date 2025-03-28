@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+}
+/* Dropdown Button */
+ .dropbtn {
+    color: black;
+    padding: 16px calc(50vw - 1.6835em);
+    font-size: 60px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    display: inline;
+    font-family: Inconsolata;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0px;
+
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  .show {display: flex !important;}
+
+  .b1{
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: white;
+    padding: 10px 300px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: inherit;
+    font-size: 32px;
+    font-weight: 400;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Inconsolata;
+  }
+  .b1:hover{
+    color: white;
+    background-color: black;
+  }
+  a.links{
+    padding: 0px;
+    text-align: inherit;   
+    flex: 100%; 
+
+
+  }
+  body{
+    overflow-x: hidden;
+  }
+.animacao{
+    animation: growDown 250ms cubic-bezier(0.64, 0.22, 0.76, 1.06) forwards;
+    transform-origin: top center
+}   
+.show2{
+    animation: growUp 250ms cubic-bezier(0.64, 0.22, 0.76, 1.06) reverse;
+    transform-origin: top center
+}   
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+@keyframes growUp {
+    0% {
+        transform: scaleY(0)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+p{
+    font-size: 32px;
+    align-items: center;
+    display: inline;
+    bottom: 10px;
+}
+@keyframes virar {
+    100% {
+        transform: rotate(90deg) translatex(50%) translateY(-80%);
+    }
+}
+.virar{
+    animation: virar 200ms cubic-bezier(0.64, 0.22, 0.76, 1.06) forwards;
+}
+@keyframes virar2 {
+    100%{
+        transform: rotate(90deg) translatex(50%) translateY(-80%);
+    }
+}
+.virar2{
+    animation: virar2 200ms cubic-bezier(0.64, 0.22, 0.76, 1.06) reverse;
+}
+.grid{
+    flex-direction: column;
+    align-items: stretch;
+    width: 1000px;
+
+}
+
+
+
+
+

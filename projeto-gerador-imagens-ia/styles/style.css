@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+}
+.center{
+    text-align: center;
+}
+h1{
+    font-family: Poppins;
+    font-weight: 800 ;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+.fontsmall{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 24px;
+}
+h1.sobre{
+    font-size: 60px;
+}
+h1.index{
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+div.p-sobre{
+    margin: 5px;
+    margin-top: 10px;
+    
+}
+div.link{
+    text-align: right;
+    margin: 5px;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+    font-family: Poppins;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.grid-container{
+    display: grid;
+    text-align: center;
+    grid: auto / auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: 80px;
+}
+.button-g{
+    border: none;
+    color: white;
+    padding: 25px 9vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:35px;
+    margin: 4px auto;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+    font-family: Poppins;
+}
+.button-g:hover{
+    background-color: black;
+    color: white;
+}
+#anima {
+    width: 1vw;
+    height: 15px;
+    margin-top: 0px;
+    background-color: black;
+    scale: 1 1;
+    animation: mymove 5s infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  
+  @keyframes mymove {
+    50% {scale: 200 1;}
+  }
