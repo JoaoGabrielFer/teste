@@ -131,6 +131,24 @@ p{
     width: 1000px;
 
 }
+}
+@media only screen and (max-aspect-ratio: 1){
+    .dropbtn{
+        padding: 16px, 50vw;
+    }
+    .dropdown-content{
+        width: 55vw;
+        margin: 0px;
+        flex-wrap: wrap;
+    }
+    .b1{
+        padding: 10px 35vw;
+    }
+    
+}
+
+
+
 
 
 
